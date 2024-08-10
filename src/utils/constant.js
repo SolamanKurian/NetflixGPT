@@ -6,3 +6,4 @@ export let MOVIE_API_OPTIONS={
       accept: 'application/json',
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3MjE5YTkzMGUwNmI0MTVmODM4NmZiNGI2MWFjNjhmYyIsIm5iZiI6MTcyMzEzMDMxNy40NTk1MSwic3ViIjoiNjZiNGRlODNiMzhkMmY5MGY0NTg2YzVkIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.xcpki4LFJ9QjDUN-ZoW3mkOjV1ES_x0MIoqGRfVKC3s'
     }};
+export let IMG_CDN_URL="https://image.tmdb.org/t/p/w200";
