@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { MOVIE_API_OPTIONS } from "../utils/constant";
 import { addTrilerVideo } from "../utils/movieSlice";
 import { useEffect } from "react";
@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 let useGetTrailer=(movieId)=>{
     let dispatch=useDispatch()
+
   // fetxh trailer using an api with a movie id
   let trailer = async () => {
     let data = await fetch(
